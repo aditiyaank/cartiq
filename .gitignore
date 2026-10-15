@@ -1,0 +1,38 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Config (contains DB password — NEVER commit this)
+src/config.py
+
+# Data (too large for git — download fresh)
+data/raw/*.xlsx
+data/raw/*.csv
+data/processed/*
+!data/processed/.gitkeep
+
+# Model artifacts (regenerate with src/model.py)
+src/artifacts/*.pkl
+
+# Power BI temp files
+~$*.pbix
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log

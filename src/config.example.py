@@ -1,0 +1,1 @@
+DB_URL = "postgresql+psycopg2://postgres:YOUR_PASSWORD@localhost:5432/cartiq"
