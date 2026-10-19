@@ -337,3 +337,11 @@ B.Tech Computer Science & Engineering
 ---
 
 ⭐ If you found this project useful, give it a star!
+
+## ⚠️ Limitations
+
+- **No cost data:** The dataset only contains revenue, not COGS. We cannot calculate true profit margins.
+- **No marketing spend:** Cannot calculate CAC or campaign ROI.
+- **Guest Checkout:** 243K transactions lacked a Customer ID and were excluded from the ML model, focusing strictly on known customers.
+- **UK-Centric:** ~88% of transactions are from the UK, which may bias regional findings.
+- **No Seasonality in ML:** The XGBoost model uses behavioral features (RFM) rather than time-series forecasting, so it doesn't explicitly model Q4 holiday spikes.
